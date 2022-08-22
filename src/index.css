@@ -29,7 +29,7 @@ h1{
   height: 100vh;
   position: relative;
   background-color: rgb(66, 71, 71);
-  color: whitesmoke;
+  color: white;
   opacity: 93%;
 }
 
@@ -58,7 +58,7 @@ h1{
 }
 
 ::placeholder{
-  color: aliceblue;
+  color:white;
 }
 
 .container{
