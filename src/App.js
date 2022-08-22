@@ -50,13 +50,17 @@ function App() {
            <p>Feels Like</p>
             </div>
            <div className='humidity'>
-             {data.main ? <p className='bold'>{data.main.humidity}%</p> : null}
+             {data.main ? <p className='bold'>{data.main.humidity.toFixed()}%</p> : null}
           <p>Humidity</p>
          </div>
          <div className='wind'>
            {data.wind ? <p className='bold'>{data.wind.speed.toFixed()}MPH</p>: null}
            <p>Wind Speed</p>
            </div>
+           <div className='visibility'>
+             {data.visibility ? <p className='bold'>{data.visibility.toFixed()}Yard</p> : null}
+          <p>Visibility</p>
+         </div>
          </div>
         }
        
