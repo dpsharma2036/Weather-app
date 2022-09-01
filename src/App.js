@@ -58,7 +58,7 @@ function App() {
            <p>Wind Speed</p>
            </div>
            <div className='visibility'>
-             {data.visibility ? <p className='bold'>{data.visibility.toFixed()}Yard</p> : null}
+             {data.visibility ? <p className='bold'>{data.visibility.toFixed()}Meter</p> : null}
           <p>Visibility</p>
          </div>
          </div>
